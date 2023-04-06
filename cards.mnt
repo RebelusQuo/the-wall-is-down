@@ -6,8 +6,8 @@
   Ops: 2
   Type: Military – War
   Event:
-    > Roll a die and subtract (-1) from the die roll for every country adjacent to Angola (including itself) edged by other players. \
-    > On a modified die roll of 3-6, gain 1 VP, remove 1 influence from each other player in Angola and then add enough influence to edge Angola.
+    > Roll a die and subtract 1 for each country where other players Prevail among Angola and every country adjacent to it, victory on a modified die roll of 3-6.
+    > *On victory*: Player gains 1 VP. Remove 1 Influence from each other player in Angola, then add enough player Influence to Prevail.
   Remove: Yes
   Image: images/angolanCivilWar.jpeg
 -
@@ -18,7 +18,8 @@
   Ops: 2
   Type: Political – Economy
   Event:
-    > Economy cards played during this turn have -1 ops.
+    # Minimum of 1 Ops?
+    > All further Economy cards played this turn have their Ops value decreased by 1 (to a minimum of 1).
   Image: images/antiGlobalizationMovement.jpg
 -
   Nr: 3
@@ -28,7 +29,7 @@
   Ops: 2
   Type: Economy
   Event:
-    > US and EU lose supremacy on all NWO economy slots.
+    > US and EU lose Supremacy over all Economy Slots.
   Remove: Yes
   Image: images/blackMonday.jpg
 -
@@ -39,7 +40,7 @@
   Ops: 3
   Type: Political – Personality
   Event:
-    > US gains 1 influence in Russia.
+    > Add 1 US Influence in Russia.
   Remove: Yes
   Image: images/Boris_Yeltsin.jpg
 -
@@ -50,8 +51,8 @@
   Ops: 2
   Type: Military – War
   Event:
-    > If played by Russia, it gains enough influence to get the edge in Caucasus states and lose 1VP. \
-    > Otherwise, remove influence from Russia from Caucasus states until Russia loses the edge.
+    > *Played by Russia*: Russia loses 1 VP, then adds enough Influence to Prevail in the Caucasus States.
+    > *Otherwise*: Remove enough Russian Influence from the Caucasus States to lose Prevalence.
   Image: images/chechenWars.jpg
 -
   Nr: 6
@@ -61,8 +62,9 @@
   Ops: 2
   Type: Military – War
   Event:
-    > Roll a die and subtract (-1) from the die roll for every country adjacent to Congo edged by another country. \
-    > On a modified die roll of 3-6, remove 1 influence from each other player in Congo and then add enough influence to edge Congo.
+    # Not including Congo itself?
+    > Roll a die and subtract 1 for each country where other players Prevail among countries adjacent to Congo, victory on a modified die roll of 3-6.
+    > *On victory*: Remove 1 Influence from each other player in Congo, then add enough player Influence to Prevail.
   Image: images/congoWars.jpg
 -
   Nr: 7
@@ -72,7 +74,9 @@
   Ops: 2
   Type: Political
   Event:
-    > Gain 1VP. Put this card in play. Nigeria now has a stability of 2. Gain 1 influence in Nigeria.
+    > Player gains 1 VP.
+    > Add 1 player Influence in Nigeria.
+    > *Permanent effect*: Nigeria has a Stability of 2.
   Remove: Yes
   Image: images/democracyInNigeria.jpg
 -
@@ -83,8 +87,9 @@
   Ops: 3
   Type: Economy
   Event:
-    > If first epoch, remove 1 influence on a country having East influence, and place 1 West influence on it. \
-    > If second epoch, remove 1 influence on a country having West influence, and place 1 East influence on it.
+    # Remove from whom? any, or same Block as mentioned?
+    > *Played in First Epoch*: Remove 1 Influence from a country having East Influence, then add 1 West Influence.
+    > *Played in Second Epoch*: Remove 1 Influence from a country having West Influence, then add 1 East Influence.
   Image: images/economicCrisis.jpg
 -
   Nr: 9
@@ -94,8 +99,10 @@
   Ops: 3
   Type: Economy – Treaty
   Event:
-    > EU gains 1 influence in Norway. Put this card in play. Norway is considered an oil production country. \
-    > Remove this card from play at the beginning of turn 6.
+    # Unplayable clause?
+    > Unplayable as an Event in turn 6-8.
+    > Add 1 EU Influence in Norway.
+    > *Continous effect*: Norway is considered an Oil Production country. Cancel effect at the beginning of turn 6.
   Remove: Yes
   Image: images/eeaAgreement.jpg
 -
@@ -106,7 +113,8 @@
   Ops: 3
   Type: Political – Personality
   Event:
-    > Put this card in play. US cannot use influence ops in Cuba. China and Russia gain 1 influence in Cuba.
+    > Add 1 Russian and 1 Chinese Influence in Cuba.
+    > *Permanent effect*: US cannot conduct Influence Ops in Cuba.
   Remove: Yes
   Image: images/elJefe.jpg
 -
@@ -117,7 +125,7 @@
   Ops: 3
   Type: Political
   Event:
-    > Choose a personality card in the discard pile. Play it for its text.
+    > Choose a Personality card from the discard pile. Play it as an Event.
   Image: images/embassyAsylum.jpg
 -
   Nr: 12
@@ -127,8 +135,10 @@
   Ops: 2
   Type: Military
   Event:
-    > If you are the US player, make a coup with this ops value on a conflictive country. \
-    > If succesful, make a second coup with the same ops value on a non-conflictive country.
+    # Play restriction?
+    > Only playable as an Event by US.
+    > Conduct a Destabilization Ops with this cards Ops value in a Disputed country. \
+    > If succesful, repeat this in another non-Disputed country.
   Image: images/empireOfWar.jpg
 -
   Nr: 13
@@ -137,9 +147,9 @@
   Ops: P
   Type: Punctuation
   Event:
-    > 2/2/3, +1VP per conflictive country, \
-    > Each player loses 1VP for each country in the region which is edged by another player and \
-    > is adjacent to or it is one of the player’s superpower countries.
+    > 2/2/3
+    > +1 VP per Disputed country.
+    > -1 VP per player’s Superpower country and country adjacent to it in the Region where another player Prevail.
   Image: images/europe.jpg
 -
   Nr: 14
@@ -149,9 +159,10 @@
   Ops: 4
   Type: Political
   Event:
-    > Remove 1 Russian influence on Germany, add 1 West influence on Germany. US gains 1VP. \
-    > US gains 1 additional VP if this card is played by an East Player. \
-    > US gains 1 additional VP if this card is played on turns 1-4
+    > US gains 1 VP.
+    > *Played by East player*: US gains 1 VP.
+    > *Played in First Epoch*: US gains 1 VP.
+    > Remove 1 Russian Influence from Germany, add 1 West Influence.
   Remove: Yes
   Image: images/Thefalloftheberlinwall1989.JPG
 -
@@ -162,8 +173,11 @@
   Ops: 1
   Type: Military
   Event:
-    > Russia gains 1 influence in Russia. Put this card in play. \
-    > As a Personality is played by its text, you can remove FSB from the game to cancel the text.
+    # Any play restriction?
+    > Add 1 Russian Influence in Russia.
+    # Is the Personality card returned to the discard pile?
+    # Should this be "Russian player can..", similar to 'Guantanamo'?
+    > *Triggered effect*: As a Personality card is played as an Event, Russian player can cancel this effect to cancel the played Event.
   Remove: Yes
   Image: images/fsb.png
 -
@@ -174,7 +188,9 @@
   Ops: 4
   Type: Political
   Event:
-    > All your ops are at +1 this turn. If playing a game with 4 players, your first played op has an additional +1 this turn.
+    > All further cards played by the player this turn have their Ops value increased by 1.
+    # This is slightly ambigous, is it the next AP after having played this card, and only within the same turn?
+    > *All four players partaking*: Player’s Ops is increased by 1 more in their first Action Phase.
   Image: images/g20.jpeg
 -
   Nr: 17
@@ -184,7 +200,8 @@
   Ops: 1
   Type: Economy
   Event:
-    > You can look at another player's hand and play one of her cards by its text.
+    # Is the card play mandatory?
+    > Player looks at another player’s hand and play one of their cards as an Event.
   Image: images/imfIntervention.jpg
 -
   Nr: 18
@@ -194,7 +211,8 @@
   Ops: 3
   Type: Political
   Event:
-    > Add 1 East influence on US, Canada, or an EU country. The player with the edge on the country (if any) can negate this effect by losing 2VP.
+    > Choose a country among the United States, Canada, and EU countries.
+    > Unless the Prevailing player in the chosen country elect to lose 2 VP, add 1 East Influence in that country.
   Image: images/immigrants.jpg
 -
   Nr: 19
@@ -204,8 +222,8 @@
   Ops: 2
   Type: Military – War
   Event:
-    > Roll a die and substract 1 from the die roll for Israel and every country adjacent to Israel which is not edged by the US. \
-    > On a modified die roll of 1 or less, all players except US receive 1 VP, then remove 1 US influence in Israel and in a country adjacent to Israel.
+    > Roll a die and substract 1 for each country _without_ US Prevalence among Israel and every country adjacent to it, defeat on a modified die roll of 1 or less.
+    > *On defeat*: All players except US gain 1 VP, then remove 1 US Influence from Israel and from one country adjacent to Israel.
   Image: images/israeliPalestinianWars.jpg
 -
   Nr: 20
@@ -215,7 +233,7 @@
   Ops: 1
   Type: Economy
   Event:
-    > US loses 1VP.
+    > US loses 1 VP.
   Remove: Yes
   Image: images/katrina.jpg
 -
@@ -226,7 +244,7 @@
   Ops: 2
   Type: Military – Terrorism
   Event:
-    > Remove 1 West influence of Saudi Arabia.
+    > Remove 1 West Influence from Saudi Arabia.
   Remove: Yes
   Image: images/khobarTowersAttack.jpg
 -
@@ -237,7 +255,9 @@
   Ops: 3
   Type: Political – Economy
   Event:
-    > Add 1 EU influence in up to 2 of these countries: Germany, France, Italy, Spain/Portugal, Benelux, Denmark, Greece. EU gains 1VP.
+    > EU gains 1 VP.
+    # Up to?
+    > Add 1 EU Influence in up to two countries among Germany, France, Italy, Spain/Portugal, Benelux, Denmark, and Greece.
   Remove: Yes
   Image: images/maastritchTreaty.jpg
 -
@@ -248,7 +268,7 @@
   Ops: 4
   Type: Economy
   Event:
-    > Add 1 China influence in US, 1 influence in an EU country and 1 influence in any other country (non EU or US)
+    > Add 1 Chinese Influence in each of the United States, one EU country, and one other country.
   Image: images/madeInChina.jpg
 -
   Nr: 24
@@ -257,7 +277,8 @@
   Ops: P
   Type: Punctuation
   Event:
-    > 2/2/2, +1VP per conflictive country,
+    > 2/2/2
+    > +1 VP per Disputed country.
   Image: images/middleEast.png
 -
   Nr: 25
@@ -267,8 +288,8 @@
   Ops: 2
   Type: Political – Personality
   Event:
-    > Gain 1 influence in Lybia. Put this card in play. Lybia becomes an oil production country while this card is in play. \
-    > Destabilization ops cannot be played on Lybia.
+    > Add 1 player Influence in Libya.
+    > *Continous effect*: Libya is considered an Oil Production country and cannot be the target of Destabilization Ops.
   Remove: Yes
   Image: images/muammarGaddafi.jpg
 -
@@ -279,8 +300,8 @@
   Ops: 4
   Type: Political
   Event:
-    > Remove up to 3 VP from West players (distributed as you choose, no more than 2VP per player). \
-    > Then, each West player may add 1 influence on any country
+    # Up to?
+    > Remove up to 3 VP from West players, no more than 2 VP per player, then each West player may add 1 Influence in any country.
   Image: images/neocolonialism.jpg
 -
   Nr: 27
@@ -290,8 +311,9 @@
   Ops: 3
   Type: Economy
   Event:
-    > Add 2 West influence in any country. Put this card in play. \
-    > Each turn, remove 1 West influence from any country and place it on this card. When this card has 3 influence tokens on it, discard it.
+    > Add 2 West Influence in any country.
+    > *Continous effect*: At the beginning of each turn, remove 1 West Influence from any country and place it on this card. \
+    > When this card has 3 Influence on it, cancel the effect and return this card to the discard pile.
   Image: images/neoliberalism.jpg
 -
   Nr: 28
@@ -301,7 +323,9 @@
   Ops: 3
   Type: Political – Treaty
   Event:
-    > Austria, Finland and Sweden are now considered EU. EU adds 1 influence on one of these countries. EU gains 1VP
+    > EU gains 1 VP.
+    > Add 1 EU Influence in one country among Austria, Finland, and Sweden.
+    > *Permanent effect*: Austria, Finland, and Sweden are considered EU countries.
   Remove: Yes
   Image: images/northernAdhesion.jpg
 -
@@ -312,8 +336,10 @@
   Ops: 1
   Type: Economy
   Event:
-    > Next time that the oil punctuation card is played, the player(s) with most oil countries gains 1VP and \
-    > the rest lose 1VP (all players just lose 1VP if there is a global tie)
+    # Express this as a triggered effect, later returned to the discard pile, like TS Shuttle Diplomacy?
+    > *Triggered effect*: The next time 'OPEC' is played, the player(s) with Prevalence in the most \
+    > Oil Production countries gain 1 VP and the rest lose 1 VP (all players lose 1 VP on a common tie), \
+    > then cancel the effect and return this card to the discard pile.
   Image: images/oilCrisis.jpg
 -
   Nr: 30
@@ -323,7 +349,7 @@
   Ops: 3
   Type: Economy
   Event:
-    > US next action must be a coup on an oil production country. It has an additional 1VP loss
+    > US player must conduct a Destabilization Ops targeting an Oil Production country during their next Action Phase. This Ops has an additional 1 VP loss.
   Image: images/oilThirst.jpg
 -
   Nr: 31
@@ -332,8 +358,8 @@
   Ops: P
   Type: Punctuation
   Event:
-    > Each player gains 1VP (pre-9/11) or 2VP (post-9/11) for each of each oil country that she edges. \
-    > Then (before checking for victory conditions) each player loses 2VP (pre-9/11) or 4VP (post-9/11).
+    > *Played in First Epoch*: Each player gains 1 VP for each Oil Production country where they Prevail, then each player immediately loses 2 VP.
+    > *Played in Second Epoch*: Each player gains 2 VP for each Oil Production country where they Prevail, then each player immediately loses 4 VP.
   Image: images/opec.jpg
 -
   Nr: 32
@@ -343,9 +369,12 @@
   Ops: 3
   Type: Military – Personality
   Event:
-    > US removes 1 influence from any player in Middle East or Afghanistan. Put this card play. \
-    > US can use influence ops in these countries. If this card is in play at 9/11, or if it is played post-9/11, \
-    > US loses 1VP and removes 1 US influence from one of these countries, then discard this card.
+    > US removes 1 Influence from any player in the Middle East or Afghanistan.
+    > *Continous effect*: US can conduct Influence Ops in these countries.
+    # What does "at 9/11" mean? the '9/11 attacks' card, or the beginning of turn 5?
+    > If this effect is active at 9/11, or if it is played in the Second Epoch, \
+    > US loses 1 VP and removes 1 US Influence from one of these countries, \
+    > then cancel the effect and return this card to the discard pile.
   Remove: Yes
   Image: images/osamaBinLaden.jpg
 -
@@ -356,8 +385,8 @@
   Ops: 4
   Type: Political – Economy
   Event:
-    > China adds 1 influence on any country (except EU, Russia and US) or \
-    > removes 1 China influence in China to add 1 influence on three countries on three different regions.
+    > China adds 1 Influence in any country except EU, Russia, and the United States, *or* \
+    > removes 1 Chinese Influence from China, then adds 1 Influence in three countries each in different regions.
   Image: images/partyCongress.jpeg
 -
   Nr: 34
@@ -367,8 +396,8 @@
   Ops: 2
   Type: Economy
   Event:
-    > Gain supremacy on Fiscal paradises and Sovereign funds. If another player has supremacy on any of them, \
-    > remove their supremacy instead. This action ignore vetoes and aheads, as well as post 9/11 limitations.
+    > With each of the Fiscal Paradises and Sovereign Funds Slots, remove opposing Supremacy from it if present, otherwise gain Supremacy over it. \
+    > (ignore Vetoes, Aheads, and Second Epoch limitations).
   Image: images/petrodollars.jpg
 -
   Nr: 35
@@ -378,7 +407,8 @@
   Ops: 3
   Type: Political – Personality
   Event:
-    > US gains supremacy in up to two Public Opinion slots.
+    # Up to?
+    > US gains Supremacy over up to two Public Opinion Slots.
   Remove: Yes
   Image: images/rupertMurdoch.jpg
 -
@@ -389,7 +419,8 @@
   Ops: 2
   Type: Economy
   Event:
-    > Choose a NWO Economy slot. Discard supremacy on it, if any. Then Russia gains supremacy on it (ignore vetoes, aheads and post 9/11 limitations).
+    > Choose an Economy Slot. Russia gains Supremacy over the chosen Slot after removing any opposing Supremacy \
+    > (ignore Vetoes, Aheads, and Second Epoch limitations).
   Image: images/russianOligarchs.jpg
 -
   Nr: 37
@@ -399,7 +430,7 @@
   Ops: 2
   Type: Military
   Event:
-    > West players lose 1VP each. They may lose an additional VP to add 2 influence in Congo
+    > West players lose 1 VP each. They may each lose an additional VP to add 2 Influence in Congo
   Remove: Yes
   Image: images/rwandanGenocide.png
 -
@@ -410,7 +441,9 @@
   Ops: 3
   Type: Economy
   Event:
-    > Gain supremacy on any one Economy slot, removing supremacy from any other player on it. Alternatively, you may remove supremacy on up to two slots
+    > Gain Supremacy over one Economy Slot after removing any opposing Supremacy, *or* \
+    # Up to?
+    > remove Supremacy on up to two Slots.
   Image: images/shockDoctrine.jpg
 -
   Nr: 39
@@ -420,7 +453,7 @@
   Ops: 3
   Type: Political – Personality
   Event:
-    > Russia and China gain 1 influence in Balkan states
+    > Add 1 Russian and 1 Chinese Influence in the Balkan States.
   Remove: Yes
   Image: images/slobodanMilosevic.jpg
 -
@@ -431,8 +464,8 @@
   Ops: 2
   Type: Military – War
   Event:
-    > Remove all influence in Somalia. Put this card in play. \
-    > Until the end of the game, any player can play operations in Somalia and it is now considered linked to Saudi Arabia. Gain 1 influence in Somalia.
+    > Remove all Influence from Somalia, then add 1 player Influence.
+    > *Permanent effect*: Any player can conduct Ops in Somalia. Somalia is considered connected with Saudi Arabia.
   Remove: Yes
   Image: images/somaliCivilWar.jpg
 -
@@ -443,8 +476,9 @@
   Ops: 2
   Type: Military – War
   Event:
-    > US gains 1 influence in Lebanon. Put this card in play. \
-    > US cannot lose influence in Lebanon while this card remains in play, and no other player can have the edge in Lebanon.
+    > Add 1 US Influence in Lebanon.
+    # What does this mean for US Prevalence?
+    > *Continous effect*: US cannot lose Influence in Lebanon, and no other player can Prevail there.
   Remove: Yes
   Image: images/southLebanonConflict.jpg
 -
@@ -455,8 +489,11 @@
   Ops: 2
   Type: Military – War
   Event:
-    > Roll 1D6 and add +1 per each country adjacent to Sudan (including itself) were players of your block have the edge. \
-    > Add 1 if you are a West (pre-9/11) or East (post-9/11) player. In a result of 4-6, remove 2 influence from Sudan, then gain 1 influence in Sudan.
+    > Roll a die and add 1 for each country where players of your Block Prevail among Sudan and every country adjacent to it, victory on a modified die roll of 4-6.
+    > *Played by West in First Epoch*: Add 1 to the roll.
+    > *Played by East in Second Epoch*: Add 1 to the roll.
+    # Remove from whom?
+    > *On victory*: Remove 2 Influence from Sudan, then add 1 player Influence.
   Remove: Yes
   Image: images/sudanCivilWars.jpg
 -
@@ -467,7 +504,8 @@
   Ops: 2
   Type: Military
   Event:
-    > China loses 2VP. Add 1 China influence on China and remove any influence in China from any other player.
+    > China loses 2 VP.
+    > Add 1 Chinese Influence in China, then remove all other players Influence from China.
   Remove: Yes
   Image: images/tiannanmenProtests.jpg
 -
@@ -478,8 +516,11 @@
   Ops: 3
   Type: Political
   Event:
-    > Gain 1VP. Gain 1 influence on any of the following countries: Venezuela, Ecuador, Bolivia, Brazil, Argentina. \
-    > Alternatively, you can remove up to 2 influence in Ukraine or Israel.
+    > Gain 1 VP.
+    > Add 1 player Influence in one country among Venezuela, Ecuador, Bolivia, Brazil, and Argentina, *or* \
+    # Up to? Remove from whom?
+    # Is it among them, or a single?
+    > remove up to 2 Influence from one of Ukraine or Israel.
   Image: images/uncomfortableDemocracies.jpg
 -
   Nr: 45
@@ -489,7 +530,10 @@
   Ops: 4
   Type: Political – Military
   Event:
-    > US removes up to 2 East influence from oil production or conflictive countries, then loses 1V.
+    > US loses 1 VP.
+    # Up to?
+    # Remove Influence from either two different or two from one?
+    > US removes up to 2 East Influence among Oil Production and Disputed countries.
   Remove: Yes
   Image: images/wolfowitzDoctrine.jpg
 -
@@ -500,7 +544,8 @@
   Ops: 2
   Type: Military – War
   Event:
-    > EU loses 1VP. EU gains enough influence to get the edge in Balkan states.
+    > EU loses 1 VP.
+    > Add enough EU Influence to Prevail in the Balkan States.
   Remove: Yes
   Image: images/yugoslavWars.jpg
 -
@@ -511,7 +556,10 @@
   Ops: 4
   Type: Military – Terrorism
   Event:
-    > US gains the edge in USA. If US already has it, gain 2 US influence in US and 1 in any two EU countries. US player loses 2VP.
+    # Does US loss VP regardless of having existing Prevalence or not?
+    > US loses 2 VP.
+    > Add enough US Influence to Prevail in the United States. If US already has Prevalence, \
+    > add 2 US Influence in the United States and 1 Influence in each of two EU countries.
   Remove: Yes
   Image: images/911attacks.jpg
 -
@@ -522,7 +570,9 @@
   Ops: 3
   Type: Military – Political
   Event:
-    > US loses 3VP, then China and Russia lose 1VP each (or 2 the East block)
+    > US loses 3 VP.
+    # Original text had "(or 2 the East Block)". Does this refer to a 2p game where one player represent the whole East Block?
+    > Russia and China lose 1 VP each.
   Remove: Yes
   Image: images/Bush_and_Putin_signing_SORT.jpg
 -
@@ -533,7 +583,7 @@
   Ops: 2
   Type: Political – Military
   Event:
-    > US loses 2VP.
+    > US loses 2 VP.
   Remove: Yes
   Image: images/abuGhraib.jpg
 -
@@ -543,7 +593,9 @@
   Ops: P
   Type: Punctuation
   Event:
-    > 1/1/2, +1VP per conflictive country, UE player loses 1VP for each country in Africa which is edged by another player and is adjacent an UE country.
+    > 1/1/2
+    > +1 VP per Disputed country.
+    > -1 VP per country adjacent to player’s Superpower country in the Region where another player Prevail.
   Image: images/africa.jpg
 -
   Nr: 51
@@ -553,8 +605,9 @@
   Ops: 2
   Type: Political – Treaty
   Event:
-    > Remove 1 West influence from an African country except Morocco. Put this card in play. \
-    > From now on, no more than 1 influence can be added to African countries with a single influence operation, and coups have an additional 1VP loss.
+    > Remove 1 West Influence from one African country except Morocco.
+    > *Permanent effect*: No more than 1 Influence can be added to African countries with a single Influence Ops. \
+    > Destabilization Ops have an additional 1 VP loss.
   Remove: Yes
   Image: images/africanUnion.jpg
 -
@@ -565,8 +618,9 @@
   Ops: 4
   Type: Military – Terrorism
   Event:
-    > Put this card in play. After US makes a coup on Middle West, Africa or Asia, \
-    > the next clockwise East player may remove 1 US or EU influence from any country on the corresponding region.
+    > *Permanent effect*: After US conducts a Destabilization Ops in the Middle East, Africa, or Asia \
+    # Is this a remnant of earlier rules? It should be next East player *by Header Order*, right?
+    > the next clockwise East player may remove 1 West Influence from any country in the corresponding region.
   Remove: Yes
   Image: images/alQaeda.jpg
 -
@@ -577,7 +631,8 @@
   Ops: 3
   Type: Political – Treaty
   Event:
-    > US loses up to 2 influence, no more than 1 influence per country on any of these countries: Venezuela, Ecuador, Bolivia, Cuba and Honduras
+    # Up to?
+    > US removes up to 2 Influence among Venezuela, Ecuador, Bolivia, Cuba, and Honduras, no more than 1 Influence per country.
   Remove: Yes
   Image: images/alba.jpg
 -
@@ -588,7 +643,9 @@
   Ops: 2
   Type: Political – Revolution
   Event:
-    > Remove all West influence in Egypt or Tunisia, or up to 2 influence (no more than 1 per country) in Morocco, Saudi Arabia or Gulf States
+    > Remove all West Influence from Egypt or Tunisia, *or* \
+    # Up to? Remove from whom?
+    > remove up to 2 Influence among Morocco, Saudi Arabia, and the Gulf States, no more than 1 per country.
   Remove: Yes
   Image: images/arabSpring.jpg
 -
@@ -598,8 +655,9 @@
   Ops: P
   Type: Punctuation
   Event:
-    > 1/2/2, +1VP per conflictive country, 0/1/2, \
-    > Each player loses 1VP for each country in Central/North America which is edged by another player and is adjacent to one player’s superpower countries.
+    > 1/2/2
+    > +1 VP per Disputed country.
+    > -1 VP per player’s Superpower country and country adjacent to it in the Region where another player Prevail.
   Image: images/asia.jpg
 -
   Nr: 56
@@ -609,7 +667,10 @@
   Ops: 3
   Type: Political – Economy
   Event:
-    > EU loses 2VP, then US may place 1 influence on an EU country and Europe may place 1 influence on up to 2 EU countries.
+    > EU loses 2 VP.
+    > US adds 1 US Influence in one EU country.
+    # Up to?
+    > EU adds 1 EU Influence in up to two EU countries.
   Remove: Yes
   Image: images/austerityPlans.jpg
 -
@@ -620,18 +681,20 @@
   Ops: 3
   Type: Political – Economy
   Event:
-    > Each player gains 1VP for each one of the following countries where the player has the edge in: Brazil, Russia, India, China and South Africa. \
-    > Then each player loses 2VP.
+    > Each player gains 1 VP for each of country where the player Prevail among Brazil, Russia, India, China, and South Africa. \
+    # Immediately loses, similar to 'OPEC'?
+    > Then each player loses 2 VP.
   Image: images/brics.jpg
 -
   Nr: 58
   Epoch: post
-  Title: Central/North  America
+  Title: Central/North America
   Ops: P
   Type: Punctuation
   Event:
-    > 0/1/2, +1VP per conflictive country, \
-    > Each player loses 1VP for each country in Central/North America which is edged by another player and is adjacent to one player’s superpower countries.
+    > 0/1/2
+    > +1 VP per Disputed country.
+    > -1 VP per player’s Superpower country and country adjacent to it in the Region where another player Prevail.
   Image: images/ncamerica.jpg
 -
   Nr: 59
@@ -641,7 +704,8 @@
   Ops: 3
   Type: Economy
   Event:
-    > All players lose 1VP. Each player loses 1 VP for each economy or technology supremacy slot where the player has supremacy in
+    > All players lose 1 VP.
+    > Each player loses 1 VP for each Economy and Technology Slot where the player has Supremacy.
   Image: images/climateChange.png
 -
   Nr: 60
@@ -651,7 +715,7 @@
   Ops: 3
   Type: Political – Revolution
   Event:
-    > Remove all Russian influence in one of the following countries: Caucasus states, Ukraine, Balkan states, Stan states.
+    > Remove all Russian Influence from one country among the Caucasus States, Ukraine, the Balkan States, and the Stan States.
   Remove: Yes
   Image: images/colorRevolution.jpg
 -
@@ -662,7 +726,9 @@
   Ops: 3
   Type: Political – Treaty
   Event:
-    > Hungary and Poland are now considered EU. Gain 1 influence on one of these countries. EU gains 1VP.
+    > EU gains 1 VP.
+    > Add 1 player Influence in one country among Hungary and Poland.
+    > *Permanent effect*: Hungary and Poland are considered EU countries.
   Remove: Yes
   Image: images/easternAdhesion.jpg
 -
@@ -673,7 +739,7 @@
   Ops: 2
   Type: Economy
   Event:
-    > Gain up to 2 West influence in a single South American country, South Korea, Indonesia, Thailand, Philippines, Greece, Italy, or Portugal/Spain.
+    > Add up to 2 West Influence in one country among South American, South Korea, Indonesia, Thailand, Philippines, Greece, Italy, and Portugal/Spain.
   Image: images/economicRescue.jpg
 -
   Nr: 63
@@ -683,7 +749,8 @@
   Ops: 2
   Type: Political
   Event:
-    > Gain 1VP. Play the rest of the turn with an open hand, except for 1 card
+    > Gain 1 VP.
+    > Select one card from your hand to keep hidden, play with the rest of the cards revealed for the remainder of the turn.
   Image: images/FOIA.jpg
 -
   Nr: 64
@@ -693,7 +760,8 @@
   Ops: 2
   Type: Political
   Event:
-    > Remove 1 US influence on Benelux, France, Germany or Italy. Add 1 US influence on Ukraine.
+    > Remove 1 US Influence from one country among Benelux, France, Germany, and Italy.
+    > Add 1 US Influence in Ukraine.
   Remove: Yes
   Image: images/fuckTheEU.jpg
 -
@@ -704,8 +772,10 @@
   Ops: 4
   Type: Economy
   Event:
-    > All players, clockwise starting by the active player, can add 1 influence to any country. \
-    > Then, the active player may place 1 additional influence on any country.
+    # can/may vs mandatory?
+    # clockwise, or header order?
+    > Each player, clockwise starting with the active player, can add 1 Influence to any country. \
+    > Then the active player may place 1 additional Influence in any country.
   Image: images/globalization.jpg
 -
   Nr: 66
@@ -715,7 +785,10 @@
   Ops: 3
   Type: Military
   Event:
-    > US loses 1VP. Put this card in play. US player can remove this card from the game to cancel the text of a Personality card.
+    # Any play restriction?
+    > US loses 1 VP.
+    # Is the Personality card returned to the discard pile?
+    > *Triggered effect*: As a Personality card is played as an Event, US player can cancel this effect to cancel the playing Event.
   Remove: Yes
   Image: images/guantanamo.png
 -
@@ -726,8 +799,9 @@
   Ops: 2
   Type: Military – Political
   Event:
-    > Remove South Lebanon Conflict card if it is in play. Put this card in play, from now on, \
-    > any operation (influence or destabilization) targeting Israel or Lebanon produces an additional 1VP loss
+    # Should the effect be prevented from being played as an Event as well?
+    > Cancel the 'South Lebanon Conflict' effect, if active.
+    > *Permanent effect*: Any Ops in Israel or Lebanon have an additional 1 VP loss.
   Remove: Yes
   Image: images/hezbollah.jpg
 -
@@ -738,8 +812,9 @@
   Ops: 4
   Type: Political – Personality
   Event:
-    > China chooses two countries where China has the edge. Remove influence from China on these countries until it has not the edge. \
-    > Then add that many influence plus 1 on countries from N/C America, South America, Asia or Africa (except Russia and US), no more than 1 per country
+    > China chooses two countries where China Prevail. Remove enough Chinese Influence in those countries to lose Prevalence. \
+    > Then add that much Influence plus 1 in countries among N/C America, South America, Asia, and Africa, \
+    > except Russia and the United States, no more than 1 per country.
   Remove: Yes
   Image: images/huJintao.jpg
 -
@@ -750,8 +825,8 @@
   Ops: 3
   Type: Political – Personality
   Event:
-    > Remove 1 West influence on Venezuela. Place this card in play. \
-    > US cannot place influence on Venezuela through 'gain influence' ops. Gain 1 influence in Venezuela.
+    > Remove 1 West Influence from Venezuela, add 1 player Influence.
+    > *Permanent effect*: US cannot conduct Influence Ops in Venezuela.
   Remove: Yes
   Image: images/HugoChavez.jpg
 -
@@ -762,7 +837,9 @@
   Ops: 3
   Type: Military – War
   Event:
-    > US player loses 1VP unless 9/11 attacks are removed from the game. US player gains 1 influence in Afghanistan and 1 influence in Pakistan
+    # What does "'9/11 attacks' are removed from the game" mean? that card (47) does not have an ongoing effect.
+    > US loses 1 VP unless '9/11 attacks' are removed from the game.
+    > Add 1 US Influence in each of Afghanistan and Pakistan.
   Remove: Yes
   Image: images/invasionOfAfghanistan.jpg
 -
@@ -773,7 +850,9 @@
   Ops: 2
   Type: Military
   Event:
-    > Russia gains 1 influence in Ukraine, and loses 1VP. Then, if EU or US still have the edge in Ukraine, reduce their influence until they don't.
+    > Russia loses 1VP.
+    > Add 1 Russian Influence in Ukraine.
+    > Remove enough US and EU Influence from Ukraine for them to lose Prevalence.
   Remove: Yes
   Image: images/invasionOfCrimea.jpg
 -
@@ -784,7 +863,8 @@
   Ops: 3
   Type: Military – War
   Event:
-    > US player loses 1VP, then US player gains enough influence to gain the edge Iraq
+    > US loses 1 VP.
+    > Add enough US Influence to Prevail in Iraq.
   Remove: Yes
   Image: images/iraqWars.jpg
 -
@@ -795,7 +875,8 @@
   Ops: 3
   Type: Political – Personality
   Event:
-    > US loses 3VP. Then all other players lose 1VP
+    > US loses 3 VP.
+    > Each other player lose 1 VP.
   Remove: Yes
   Image: images/julianAssange.jpg
 -
@@ -806,7 +887,8 @@
   Ops: 2
   Type: Political – Personality
   Event:
-    > Remove all West influence on North Korea. Put this card in play: West cannot make coups or influence North Korea. Gain 1 influence in North Korea.
+    > Remove all West Influence from North Korea, add 1 player Influence.
+    > *Permanent effect*: West cannot conduct Influence or Destabilization Ops in North Korea.
   Remove: Yes
   Image: images/Kim_Jong_il.jpg
 -
@@ -817,7 +899,7 @@
   Ops: 2
   Type: Political – Treaty
   Event:
-    > Each player may remove 1 supremacy technology or economy token. If they don’t or can’t, they lose 1VP
+    > Each player may remove their Supremacy over one Technology or Economy Slot. If they choose not to or is unable, they lose 1 VP.
   Remove: Yes
   Image: images/kyotoProtocol.jpg
 -
@@ -828,9 +910,10 @@
   Ops: 2
   Type: Military – War
   Event:
-    > Remove Gaddafi from play (if not in play, Gaddafi cannot be played by its text for the remaining of the game). \
-    > The player with the edge in Lybia (if any) loses 1VP and Lybia is no longer an oil production country. \
-    > Remove all influence in Lybia. Gain 1 influence in Lybia
+    > The Prevailing player in Libya loses 1 VP.
+    > Remove all Influence from Libya, then add 1 player Influence.
+    > Cancel the 'Muammar Gaddafi' effect, if active.
+    > *Permanent effect*: 'Muammar Gaddafi' cannot be played as an Event.
   Remove: Yes
   Image: images/lybianCivilWar.jpg
 -
@@ -841,7 +924,7 @@
   Ops: 2
   Type: Political – Military
   Event:
-    > US and Russia may remove 1 supremacy military token to gain 1 VP
+    > US and Russia may elect to lose their Supremacy in one Military Slot to gain 1 VP.
   Remove: Yes
   Image: images/newSTART.jpeg
 -
@@ -852,20 +935,32 @@
   Ops: 2
   Type: Economy
   Event:
-    > EU may count Russia as an edged oil production country for oil production punctuation card \
-    > (the player that edges Russia can also count it for that punctuation). Russia may add 1 influence in one EU (non UK) country.
+    > Russia may add 1 Russian Influence in one EU country, except UK.
+    > *Permanent effect*: EU is considered having Prevalence in Russia for the purpose of the Oil Production Punctuation card \
+    > (this does not affect who is actual Prevailing in Russia).
   Remove: Yes
   Image: images/nordStream1.jpg
 -
   Nr: 79
   Epoch: post
-  Title: NWO
+  Title: New World Order
   Faction: E/W
   Ops: 4
   Type: Political/Military – Economy
   Event:
-    > Lose 2VP. Then the game ends. Can only be played in turns 6 to 8.
+    > Only playable as an Event in turns 6-8.
+    > The game ends after losing 2 VP.
   Image: images/nwo.jpg
+-
+  Nr: 82
+  Epoch: post
+  Title: South America
+  Ops: P
+  Type: Punctuation
+  Event:
+    > 0/1/2
+    > +1 VP per Disputed country.
+  Image: images/southAmerica.jpg
 -
   Nr: 80
   Epoch: post
@@ -874,7 +969,9 @@
   Ops: 1
   Type: Military
   Event:
-    > US spies on its neighbours. US loses 1VP and 1 influence on a country where the EU has also influence.
+    > _US spies on its neighbours._
+    > US loses 1 VP.
+    > US removes 1 US Influence from a country where EU also has Influence.
   Remove: Yes
   Image: images/prism.png
 -
@@ -885,18 +982,12 @@
   Ops: 2
   Type: Political – Treaty
   Event:
-    > Romania and Bulgaria are now considered EU. Gain 1 influence on one of these countries. EU gains 1 VP.
+    > EU gains 1 VP.
+    # EU or player Influence?
+    > Add 1 EU Influence in one country among Romania and Bulgaria.
+    > *Permanent* effect: Romania and Bulgaria are considered EU countries.
   Remove: Yes
   Image: images/secondEasternAdhesion.jpg
--
-  Nr: 82
-  Epoch: post
-  Title: South America
-  Ops: P
-  Type: Punctuation
-  Event:
-    > 0/1/2, +1VP per conflictive country,
-  Image: images/southAmerica.jpg
 -
   Nr: 83
   Epoch: post
@@ -905,7 +996,8 @@
   Ops: 2
   Type: Military – War
   Event:
-    > Remove all influence in Syria. Russia gains 1 influence in Syria and loses 1VP
+    > Russia loses 1 VP.
+    > Remove all Influence from Syria, then add 1 Russian Influence.
   Remove: Yes
   Image: images/syrianCivilWar.png
 -
@@ -916,8 +1008,8 @@
   Ops: 3
   Type: Political – Personality
   Event:
-    > Put this card in play. Russia and China can play influence ops in Argentina or any adjacent country while this card is in play. \
-    > Gain 1 influence on one of such countries.
+    > Add 1 player Influence in one country among Argentina and any adjacent country.
+    > *Permanent effect*: Russia and China can play Influence Ops in Argentina and any adjacent country.
   Remove: Yes
   Image: images/theKirchners.jpg
 -
@@ -928,7 +1020,7 @@
   Ops: 2
   Type: Military
   Event:
-    > Make a coup with this ops value, no VP are lost
+    > Conduct a Destabilization Ops with this cards Ops value, without VP loss.
   Image: images/theMotherOfAllWars.webp
 -
   Nr: 86
@@ -938,7 +1030,8 @@
   Ops: 3
   Type: Political – Personality
   Event:
-    > Russia loses 1VP and 1 influence in Ukraine.
+    > Russia loses 1 VP.
+    > Remove 1 Russian Influence from Ukraine.
   Remove: Yes
   Image: images/viktorYuschenko.jpg
 -
@@ -949,9 +1042,10 @@
   Ops: 3
   Type: Political – Personality
   Event:
-    > Russia gains 1 (2 if FSB is in play) influence in Russia. Put this card in play. \
-    > After any player gains the edge on a country (except China) adjacent to Russia, \
-    > Russia player can discard this card to attempt a coup with the same ops value than the card that provided the edge.
+    > Add 1 Russian Influence in Russia.
+    > Add an additional Influence if the 'FSB creation' effect is active.
+    > *Triggered effect*: After any player gains Prevalence in a country adjacent to Russia, except China, \
+    > the Russian player can cancel this effect to conduct a Destabilization Ops with the Ops value of the card that provided the Prevalence.
   Remove: Yes
   Image: images/vladimirPutin.jpg
 -
@@ -962,7 +1056,7 @@
   Ops: 4
   Type: Military – Terrorism
   Event:
-    > Put this card in play. US coups on Middle East or Africa no longer produce a loss on VP.
+    > *Permanent effect*: US conducts Destabilization Ops in the Middle East and Africa without VP losses.
   Remove: Yes
   Image: images/warOnTerror.jpg
 -
@@ -972,7 +1066,10 @@
   Faction: E/W
   Ops: 2
   Event:
-    > PROMO. Pick a card from another player's hand. Play it by its text switching Russia and US, China and EU, and West and East
+    > PROMO.
+    # Does the player get to see the other players cards?
+    # Is switching the words optional or mandatory?
+    > Pick a card from another player’s hand. Play it as an Event, switching the words Russia and US, China and EU, and West and East.
   Image: images/conspiracyTheory.jpeg
 -
   Nr: P2
@@ -982,7 +1079,8 @@
   Ops: 2
   Type: Political – Personality
   Event:
-    > If first epoch, remove any Russia influence from Italy and gain 1VP. If second epoch, EU loses 1VP
+    > *Played in First Epoch*: Gain 1 VP. Remove all Russia Influence from Italy.
+    > *Played in Second Epoch*: EU loses 1 VP.
   Remove: Yes
   Image: images/silvioBerlusconi.jpg
 -
@@ -993,6 +1091,8 @@
   Ops: 1
   Type: Military – Terrorism
   Event:
-    > EU player must choose to remove 1 West influence on Spain/Portugal or remove 1 EU influence on Afghanistan.
+    > *EU player chooses*: \
+    > EU removes 1 West Influence from Spain/Portugal, *or* \
+    > remove 1 EU Influence from Afghanistan.
   Remove: Yes
   Image: images/madridBombings.jpg
