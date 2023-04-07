@@ -164,46 +164,66 @@ Influence present, or does it only stop other players so US still need to have m
 
 42:
 Clarification: Remove Influence from whom?
+RS: Anyone (let's say including yourself if you're the only one with influence)
 
 44:
 Clarification: Remove Influence from whom?
+RS: Anyone
 Clarification: Is the "up to" to avoid being forced to remove your own Influence?
+RS: Not really. It's for the case where there are less than 2 influence to remove, to allow to play it for removing just 1 influence.
+As I said previously, I did not consider the case that you play a card that will remove influence from you. But if you chose to play for text on a country where only you have influence and choose to remove influence, it's your fault, I won't make the game 'sweet' in that sense.
+
 Clarification: Is the intent to remove Influence from only one of the two countries, Ukraine or Israel?
+RS: yes, you choose one of them and remove 2 influence on the one chosen. Otherwise it might be very powerful. The wording it not very clear about it, i agree.
 
 45:
 Clarification: Why is the "up to" phrase needed here?
+RS: Yes, always that there's the 'up to', the original intention was to make them playable if there are less than the influence in the text present to remove.
 Clarification: Remove Influence from either two different or two from one?
+RS: It's a powerhouse card, two from different (1 and 1) or two from the same.
 
 47:
 Clarification: Does US loss VP regardless of having existing Prevalence or not?
+RS: Yes. The underlying theme it that the event made US 'vulnerable' as the only hegemon. At the same time, it make it stronger internally (on the west)
 
 48:
 Normalize the order where the powers are mentioned together, Russia before China.
 Clarification: Original text had "(or 2 the East Block)". Does this refer to a 2p game where one player represent the
 whole East Block?
+RS: Yes
 
 52:
 Pretty sure it's the "Middle East", not "Middle West".
 "US or EU Influence" is the same as "West Influence".
+RS: Oh yes, big errata that was present in the previous version!
 Clarification: Is this a remnant of earlier rules? It should be next East player *by Header Order*, right?
+RS: Yes, it was a remnant, somehow this card was not revised.
 
 53:
 Clarification: Is the "up to" to avoid being forced to remove your own Influence?
+RS: As above explained.
 
 54:
 Bold emphasis to make it clear there's a choice.
 Clarification: Is the "up to" to avoid being forced to remove your own Influence?
+RS: AAE
 Clarification: Remove Influence from whom?
+RS: Anyone. Anytime it says remove influence, is from any power with influence in the country.
 
 55:
 Clarification: 1/2/2 are the correct scores?
+RS: Yes. 2/2/3 for Europe, 2/2/2 for Middle East, 1/2/2 for Asia, 1/1/2 for Africa and 0/1/2 for Americas
+Why?
 
 56:
 I assume the order is important here, US adds Influence before EU.
+RS: Yes, order is important
 Clarification: Why is the "up to" phrase needed here?
+RS: AAE
 
 57:
 Clarification: Should the term "immediately" be used here, similarly to 31?
+RS: Yes.
 
 59:
 Opinion: This particular card has some political bias in my opinion, but on the other hand it's a game based on
@@ -211,44 +231,66 @@ political themes. Regardless of the cause it's still a fact the climate has impl
 indirectly contribute to production, I don't feel the connection to the Technology Slots are as strong. Communications
 has a possible indirect connection, but it's very vague for the two other slots. Now, I understand that the card
 probably fills a specific design space so you are probably not very eager to change it, so take this as mere commentary.
+RS: Yes, it's a political game and also based on recent events, so I understand it can give way to perceived or actual biases.
+I've tried mostly refer to wikipedia or other more or less objective views of conflicts, and also take a decade of distance from the present to leave things to settle down. 
+I think it's very well established and withouth bias that climate change is real (ipcc, un says it, not me) and negative (on ecological and economical terms, millions are lost on extreme weather events, droughts and fires, as well of thousands of lives and biodiversity, they are several studies about it). So a global negative VP seemed logical, as superpowers are major contributors, although maybe not major sufferers. Usually VP losses represent actual geopolitical/economic losses, or public opinion/moral losses.
+This card may be seen as both.
+Game-wise, I needed on 2nd epoch several cards with negative VPs to avoid easy early wins.
 
 61:
 Opinion: Given your answer in the BGG thread, maybe the card title should somehow include that fact, that this is also
 themed on the NATO expansion?
+RS: The adhesions were generally not 'sold' as NATO expansions, althogh the facto one thing followed the other. But there were different points of views and in might have gone as a purely EU adhesion. To reflect the chance of 'altering' the real events (in case it's EU and not US who plays it) for a softer adhesion, I prefer keeping without NATO references. Also I want to stress EU in some cards, since otherwise the West is too US-9/11 focused.
 
 62:
 Clarification: Is the "up to" to avoid being forced to add Influence for the other player in your block?
+RS: not really. Actually, here i think that the 'up to' is unnecessary.
 
 65:
 Clarification: Does "can" imply optionality, or is it mandatory to place Influence?
+RS: gamewise, it would be stupid not to do it (unless you do some kind of non-binding pact with other player). We can leave it or removit it to make it mandatory.
 Clarification: Is this a remnant of earlier rules? It should follow the *Header Order*, right?
+RS: Yes, header order is the correct wording.
 
 67:
 Clarification: Should the effect be prevented from being played as an Event as well?
+RS: I'll leave it only for ops. Event texts are somehow 'stronger' forces, and US has too many VP losses on 2nd epoch already.
 
 70:
 Clarification: What does "'9/11 attacks' are removed from the game" mean? that card (47) does not have an ongoing effect.
 effect.
+RS: That card 47 has been played by its text. In that case, as it is an asterisk card, it had been removed from the game.
 
 71:
 Normalize the order where the powers are mentioned together, US before EU.
+RS: Agree
 
 75:
 Clarification: "token" == "Supremacy over a Slot"?
+RS: Yes. In the 'analog' version, it is marked with a cube/token. But yes, better "supremacy over a slot"
 
 76:
 Misspelled country name, Libya.
 Inquiry: Should we keep the reminder, losing Oil Production status within parenthesis?
+RS: Isn't it already? The text i have in the latest version is:
+"Remove Gaddafi from play (if not in play, Gaddafi cannot be played by its text for the remaining of the game). The player with the edge in Lybia (if any) loses 1VP and *Libya is no longer an oil production country*. Remove all influence in Lybia. Gain 1 influence in Lybia"
 
 79:
 The term "NWO" is used for the track, we should let the card have the proper full title.
+RS: Agree. I had already thought the same, but somehow never changed it :)
 
 80:
 Opinion: The only card with a flavor text; more flavor on other cards, or none?
+RS: I love flavors, but never was a priority at the current status of the game. We can think of flavours on cards with enough free text space!
 
 81:
 Clarification: add EU or player Influence?
+RS: Both eastern adhesions have that double side of EU/NATO adhesion, so player influence. If it's EU, it will be more 'economic adhesion', if it's US, a more "NATO adhesion".
 
 P1:
 Clarification: Does "pick" mean the player get to see the other players hand, or is it a random selection?
+RS: All the Pn cards are promo cards, and were never really hard-tested. This was considered both strong and funny, so it should read 'see another player's hand and play one of her cards..."
+Promo cards are considered as optional, and also as 'treats's for different country versions in case of a kickstarter or something.
 Clarification: Is switching the words optional or mandatory?
+RS: Should be mandatory, given that you see the hand and select one. It's the spirit of the card: nothing is as it seems! I you don't recognize the guy in the picture, he's the "Smoking man" from X-files TV series :D
+
